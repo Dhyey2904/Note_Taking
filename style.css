@@ -116,15 +116,21 @@ body {
   display: inline-block;
   height: 30vh;
   margin-left: 4rem;
+  border-top: #73bbc9 dotted 1.5rem;
 }
+
 .feature-box:hover {
   transform: scale(1.1) translateZ(0.1rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-.image {
-  width: 6rem;
+
+ion-icon {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 6rem;
+  color: #73bbc9;
 }
 
 .info__heading {
@@ -136,6 +142,8 @@ body {
 
 .info__text {
   font-size: 2.6rem;
+  margin-bottom: 1rem;
+  color: #73bbc9;
 }
 
 .info__para {
